@@ -1,0 +1,39 @@
+.product{
+    border: 1px solid #95A0A7;
+    padding: 5px;
+    width: 100%;
+    height: 610;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+h4{
+    font-size: 18px;
+}
+p,h3,h4{
+    margin: 0;
+}
+.pr-content{
+    padding: 20px 0;
+}
+.product img{
+    width: 100%;
+    border-radius: 15px;
+}
+.product button{
+    width: 100%;
+    background-color: #B41B2D;
+    color: #FFFFFF;
+    border:none;
+    transition: 0.2s all ease-in-out;
+}
+.product button:hover{
+    background-color: #FFE0B3;
+    color: #000000;
+}

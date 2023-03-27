@@ -1,0 +1,14 @@
+.header{
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110px;
+}
+.menu a{
+    color: #FFFFFF !important;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
